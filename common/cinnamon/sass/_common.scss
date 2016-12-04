@@ -355,7 +355,7 @@ StScrollBar {
 // Panel
 //
 #panel {
-  font-weight: bold;
+  font-weight: regular;
   height: 27px;
   width: 32px;
 
@@ -436,7 +436,7 @@ StScrollBar {
     border-width: 0;
     -natural-hpadding: 3px;
     -minimum-hpadding: 3px;
-    font-weight: bold;
+    font-weight: regular;
     color: white;
     height: 22px;
 
@@ -446,7 +446,7 @@ StScrollBar {
   &-button {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
-    font-weight: bold;
+    font-weight: regular;
     color: green;
     transition-duration: 100;
 
@@ -1268,13 +1268,13 @@ StScrollBar {
   }
 
   &-item-label {
-    font-weight: bold;
+    font-weight: regular;
     width: 15em;
     min-width: 5px;
   }
 
   &-item-box {
-    font-weight: bold;
+    font-weight: regular;
     background-image: none;
     padding-top: 0;
     padding-left: 8px;
@@ -1558,7 +1558,7 @@ StScrollBar {
   }
 
   &-label {
-    font-weight: bold;
+    font-weight: regular;
     color: $_shell_fg_color;
 
     &:hover, .applet-box:hover > & {
@@ -1593,7 +1593,7 @@ StScrollBar {
 .user-label {
     color: $fg_color;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: bregular;
     margin: 0px;
 }
 
